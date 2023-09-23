@@ -6,7 +6,8 @@ metadata:
 spec:
   replicas:3
   selector:
-    app: mavenwebapp
+    matchlabels:
+      app: mavenwebapp
   template:
     metadata:
       name: mavenwebapp
