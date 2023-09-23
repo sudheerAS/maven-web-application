@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mavenwebappdep
+  name: mavenwebappdeployment
   namespace: test-ns
 spec:
   replicas: 3
