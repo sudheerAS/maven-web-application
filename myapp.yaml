@@ -1,10 +1,10 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mavenwebappdep
   namespace: test-ns
 spec:
-  replicas:3
+  replicas: 3
   selector:
     matchLabels:
       app: mavenwebapp
