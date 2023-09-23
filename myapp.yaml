@@ -19,6 +19,3 @@ spec:
         image: sudheeradoc/maven-web-application:TAG
         ports:
         - containerPort: 8080
-   
-
-  
