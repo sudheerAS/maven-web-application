@@ -12,7 +12,7 @@ spec:
     metadata:
       name: mavenwebapp
       labels:
-        app:mavenwebapp
+        app: mavenwebapp
     spec:
       containers:
       - name: mavenwebapp
